@@ -1,0 +1,26 @@
+MatCodig:  
+MatNumSe:  
+MatNumMe:  
+MatNumCo:  
+MatCant:  1
+MatTipo:  BORRADOR DE EPROMS.
+MatDescr:  
+MatMarca:  
+MatLocal:  Almacen
+$Revisions:  28/01/98 18:24:21,28/01/98 18:25:09,06/07/98 16:46:01,18/03/2002 08:42:30
+$UpdatedBy:  CN=TALLERES/O=SDB,CN=Sat CCB/O=Salesianos
+
+
+
+
+MatCodig:  
+MatNumSe:  0140272
+MatNumMe:  
+MatNumCo:  06001
+MatCant:  1
+MatTipo:  CNAM
+MatDescr:  P -  3500
+MatMarca:  Instruments Division
+MatLocal:  Almacen
+$UpdatedBy:  CN=TALLERES/O=SDB,CN=Sat CCB/O=SDB
+$Revisions:  26/02/2002 19:13:33

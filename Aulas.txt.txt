@@ -1,4 +1,0 @@
-## File successfully created!
-
-## Formato: MatCodig:  ;MatNumSe:  ;MatNumMe:  ;MatNumCo:  ;MatCant:  ;MatTipo:  ;MatDescr:  ;MatMarca:  ;MatLocal:  ;$UpdatedBy:  ;$Revisions:  ;
-
