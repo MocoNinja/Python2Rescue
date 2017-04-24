@@ -37,8 +37,8 @@ for line in archivoOrigen:
         if not (lineaLeida == '\n'):
             for i in etiquetas:
                 if i in lineaLeida:
-                    resultado += alias[etiquetas.index(i)]
+                    #resultado += alias[etiquetas.index(i)]
                     resultado += lineaLeida.strip(i)
                     resultado +=';'
-            line = next(archivoOrigen)
+                    line = next(archivoOrigen)
     escribirLinea(resultado)
