@@ -21,10 +21,11 @@ def crearArchivo(nombre):
     texto = ""
     for etiqueta in etiquetas:
         texto = texto + etiqueta + ";"
-    archivoDestino.write(texto)
+    archivoDestino.write(texto.strip("\n"))
     archivoDestino.close()
 def escribirLinea(linea):
     archivoDestino = open(nombreArchivoDestino,'a')
+    linea += "\n"
     archivoDestino.write(linea)
     archivoDestino.close()
 crearArchivo(nombreArchivo)
@@ -32,7 +33,7 @@ archivoOrigen = open(nombreArchivo, 'r')
 for line in archivoOrigen:
     resultado = ""
     for i in range (0, len(etiquetas)):
-        lineaLeida = line.strip('\n')
+        lineaLeida = line.strip('\r\n')
         if not (lineaLeida == '\n'):
             for i in etiquetas:
                 if i in lineaLeida:
